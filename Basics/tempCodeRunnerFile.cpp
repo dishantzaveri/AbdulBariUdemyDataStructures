@@ -1,0 +1,1 @@
+   // cout<<"size of struct Rect is "<<sizeof(struct Rect)<<endl;
