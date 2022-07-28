@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "arraybasics.C": "cpp"
+        "arraybasics.C": "cpp",
+        "ostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }
