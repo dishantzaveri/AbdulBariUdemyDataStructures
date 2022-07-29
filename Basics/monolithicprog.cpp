@@ -3,20 +3,29 @@
 
 using namespace std;
 
+int area(int length, int width)
+{
+    return length * width;
+}
+
+int perimeter(int length, int width)
+{
+    return 2 * (length + width);
+}
+
 int main()
 
 {
-    int l=0,b=0;
-    cout<<"Enter the length and breadth of the rectangle"<<endl;
-    cin>>l>>b;
-
-    int area=l*b;
-    cout<<"The area of the rectangle is "<<area<<endl;
-    int peri=2*(l+b);
-    cout<<"The perimeter of the rectangle is "<<peri<<endl;
+    int length=0, width=0;
+    cout << "Enter length: ";
+    cin >> length;
+    cout << "Enter width: ";
+    cin >> width;
+    cout << "Area is " << area(length, width) << endl;
+    cout << "Perimeter is " << perimeter(length, width) << endl;
     return 0;
 
 
 }
 
-//monolithic prog means all the code is in main funct
+//modular prog means all the code is divided into diff functions and each function is responsible for a particular task
