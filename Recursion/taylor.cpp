@@ -1,4 +1,5 @@
 #include<iostream>
+using namespace std;
 
 double e(int x, int n)
 {
